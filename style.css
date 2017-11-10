@@ -1,0 +1,70 @@
+/* DON'T DELETE THIS */
+
+html {
+  box-sizing: border-box;
+}
+
+*,*:before,*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-size: 2vw;
+  color: white;
+  text-align: center;
+  font-family: america;
+  background-color: black;
+}
+
+@font-face {
+    font-family: 'america';
+    src: url('america.woff') format('woff'),
+    url('america.ttf') format('ttf');
+
+}
+
+/* Clear Float */
+
+.cf:before,.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+
+.col {
+  float: left;
+}
+
+.house {
+  width: 6.66vw;
+  height: 5vh;
+  line-height: 5vh;
+  background: black;
+  border: 1px solid white;
+}
+
+
+.house:hover {
+  background: lime;
+}
+.countdown{
+	
+}
+/*p{
+	font-size: 200px;
+	text-align: center;
+	z-index: -10000000000;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+}*/
