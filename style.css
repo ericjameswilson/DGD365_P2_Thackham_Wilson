@@ -21,9 +21,13 @@ body {
     font-family: 'america';
     src: url('america.woff') format('woff'),
     url('america.ttf') format('ttf');
-
 }
-
+@font-face {
+	    font-family: 'compressed';
+		src: url('Compressedhand.woff') format('woff'),
+		url('Compressedhand.ttf') format('ttf');
+		
+}
 /* Clear Float */
 
 .cf:before,.cf:after {
